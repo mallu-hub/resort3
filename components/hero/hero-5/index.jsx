@@ -6,7 +6,7 @@ const Index = () => {
       <div className="masthead__bg">
         <img alt="image" src="/img/masthead/5/bg.svg" className="js-lazy" />
       </div>
-      {/* End bg image */}
+      {/* End bg image S*/}
 
       <div className="container">
         <div className="row">
