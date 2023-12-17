@@ -85,7 +85,7 @@ const index = () => {
         </div>
         {/* End slider */}
 
-        <MainFilterSearchBox />
+        {/* <MainFilterSearchBox /> */}
         {/* End tab-filter */}
       </section>
       {/* End section */}
