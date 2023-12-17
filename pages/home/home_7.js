@@ -15,7 +15,7 @@ import HotelTypes from "../../components/home/home-7/HotelTypes";
 const home_7 = () => {
   return (
     <>
-      <Seo pageTitle="Home-7" />
+      <Seo pageTitle="Home" />
       {/* End Page Title */}
 
       <Header7 />
