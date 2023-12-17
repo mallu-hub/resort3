@@ -20,7 +20,7 @@ const MainMenu = ({ style = "" }) => {
   return (
     <nav className="menu js-navList">
       <ul className={`menu__nav ${style} -is-active`}>
-        <li
+        {/* <li
           className={`${
             isActiveParentChaild(homeItems, router.asPath) ? "current" : ""
           } menu-item-has-children`}
@@ -29,7 +29,7 @@ const MainMenu = ({ style = "" }) => {
             <span className="mr-10">Home</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
-          {/* <ul className="subnav">
+          <ul className="subnav">
             {homeItems.map((menu, i) => (
               <li
                 key={i}
@@ -40,8 +40,8 @@ const MainMenu = ({ style = "" }) => {
                 <Link href={menu.routePath}>{menu.name}</Link>
               </li>
             ))}
-          </ul> */}
-        </li>
+          </ul>
+        </li> */}
         {/* End home page menu */}
 
         <li className="menu-item-has-children -has-mega-menu">
